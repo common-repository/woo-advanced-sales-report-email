@@ -1,0 +1,474 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Advanced Sales Report Email\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-14 10:24+0000\n"
+"PO-Revision-Date: 2020-05-14 10:33+0000\n"
+"Last-Translator: \n"
+"Language-Team: Gujarati\n"
+"Language: gu\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.4.1"
+
+#: woocommerce-advanced-sales-report-email.php:83
+#, php-format
+msgid ""
+"Please install and activate %sWooCommerce%s for WC Sales Report Email to "
+"work!"
+msgstr ""
+"WC વેચાણ અહેવાલ ઇમેઇલ કાર્ય કરવા માટે કૃપા કરી %sWooCommerce%s ને સ્થાપિત "
+"અને સક્રિય કરો!\n"
+
+#: classes/class-wc-asre-admin.php:200
+msgid "Documentation"
+msgstr "દસ્તાવેજીકરણ"
+
+#: classes/class-wc-asre-admin.php:699
+msgid "the name of the report for internal use"
+msgstr ""
+"આંતરિક ઉપયોગ માટેના અહેવાલનું નામ\n"
+
+#: classes/class-wc-asre-admin.php:700
+msgid "Add title"
+msgstr ""
+"શીર્ષક ઉમેરો\n"
+
+#: classes/class-wc-asre-admin.php:715
+msgid "enter the recipients email addresses, separated by commas."
+msgstr ""
+"પ્રાપ્તિકર્તાઓના ઇમેઇલ સરનામાં દાખલ કરો, અલ્પવિરામથી વિભાજિત.\n"
+
+#: classes/class-wc-asre-admin.php:722
+msgid "Sales Report for {site_title}."
+msgstr ""
+"{site_title} માટે વેચાણ અહેવાલ.\n"
+
+#: classes/class-wc-asre-admin.php:723 classes/class-wc-asre-admin.php:731
+msgid "available Placeholders: {site_title}"
+msgstr ""
+"ઉપલબ્ધ પ્લેસહોલ્ડરો: {site_title}\n"
+
+#: classes/class-wc-asre-admin.php:727
+msgid "Email Content"
+msgstr ""
+"ઇમેઇલ સામગ્રી\n"
+
+#: classes/class-wc-asre-admin.php:730
+msgid "Hi there. Please find your sales report for {site_title} below."
+msgstr ""
+"હાય ત્યાં. કૃપા કરી નીચે {site_title} માટે તમારી વેચાણ અહેવાલ મેળવો.\n"
+
+#: classes/class-wc-asre-admin.php:780
+msgid "Interval"
+msgstr "અંતરાલ"
+
+#: classes/class-wc-asre-admin.php:784
+msgid "The frequency of which the report should be sent."
+msgstr ""
+"રિક્વન્સી મોકલવાની આવર્તન.\n"
+
+#: classes/class-wc-asre-admin.php:789
+msgid "Day of Week"
+msgstr ""
+"અઠવાડિયાનો દિવસ\n"
+
+#: classes/class-wc-asre-admin.php:795
+msgid "Day of the week to send the report email."
+msgstr ""
+"રિપોર્ટ ઇમેઇલ મોકલવા માટે અઠવાડિયાનો દિવસ.\n"
+
+#: classes/class-wc-asre-admin.php:799
+msgid "Day of Month"
+msgstr ""
+"મહિનાનો દિવસ\n"
+
+#: classes/class-wc-asre-admin.php:804
+msgid "the day on the month to send the report email."
+msgstr ""
+"રિપોર્ટ ઇમેઇલ મોકલવાનો મહિનાનો દિવસ.\n"
+
+#: classes/class-wc-asre-admin.php:808
+msgid "Send Report At"
+msgstr ""
+"રિપોર્ટ મોકલો\n"
+
+#: classes/class-wc-asre-admin.php:813
+msgid "the time of day to send out the report email."
+msgstr ""
+"રિપોર્ટ ઇમેઇલ મોકલવાનો દિવસનો સમય.\n"
+
+#: classes/class-wc-asre-admin.php:828
+msgid "Enable this option to enable this email notification."
+msgstr ""
+"આ ઇમેઇલ સૂચનાને સક્ષમ કરવા માટે આ વિકલ્પને સક્ષમ કરો.\n"
+
+#: classes/class-wc-asre-admin.php:845 classes/preview/total-report.php:375
+msgid "Gross Revenue"
+msgstr ""
+"કુલ આવક\n"
+
+#: classes/class-wc-asre-admin.php:850
+msgid "sum of all orders including shipping & taxes with refunds taken off."
+msgstr ""
+"ઉપાડ સાથે વહન અને કર સહિતના તમામ ઓર્ડરનો સરવાળો.\n"
+
+#: classes/class-wc-asre-admin.php:859
+msgid "Total discounts with coupons."
+msgstr ""
+"કૂપન્સ સાથે કુલ છૂટ.\n"
+
+#: classes/class-wc-asre-admin.php:868
+msgid "Total Refunds during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન કુલ રિફંડ.\n"
+
+#: classes/class-wc-asre-admin.php:877
+msgid "Total tax charges during the report period."
+msgstr ""
+"રિપોર્ટના સમયગાળા દરમિયાન કુલ ટેક્સ ચાર્જ.\n"
+
+#: classes/class-wc-asre-admin.php:886
+msgid "Total shipping charges during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન કુલ શિપિંગ ખર્ચ.\n"
+
+#: classes/class-wc-asre-admin.php:890 classes/preview/total-report.php:463
+msgid "Net Revenue"
+msgstr ""
+"ચોખ્ખો મહેસુલ\n"
+
+#: classes/class-wc-asre-admin.php:895
+msgid "sum of all orders, with refunds, shipping & taxes taken off."
+msgstr ""
+"રિફંડ, શિપિંગ અને ટેક્સ ઉપાડેલા તમામ ઓર્ડરનો સરવાળો.\n"
+
+#: classes/class-wc-asre-admin.php:904
+msgid "Total count of orders in status Processing/Complete."
+msgstr ""
+"સ્થિતિ પ્રોસેસીંગ / પૂર્ણમાં ઓર્ડરની કુલ ગણતરી.\n"
+
+#: classes/class-wc-asre-admin.php:908 classes/preview/total-report.php:510
+msgid "Items Sold"
+msgstr ""
+"વસ્તુઓ વેચી\n"
+
+#: classes/class-wc-asre-admin.php:913
+msgid "Total items sold during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન કુલ વેચાયેલી વસ્તુઓ.\n"
+
+#: classes/class-wc-asre-admin.php:917 classes/preview/total-report.php:527
+msgid "New Customers"
+msgstr ""
+"નવા ગ્રાહકો\n"
+
+#: classes/class-wc-asre-admin.php:922
+msgid "Total number of new signups during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન નવા સાઇનઅપ્સની કુલ સંખ્યા.\n"
+
+#: classes/class-wc-asre-admin.php:926
+msgid "Avg Order Value"
+msgstr ""
+"સરેરાશ ઓર્ડર મૂલ્ય\n"
+
+#: classes/class-wc-asre-admin.php:931
+msgid "Average Order Value during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન સરેરાશ ઓર્ડર મૂલ્ય.\n"
+
+#: classes/class-wc-asre-admin.php:935
+msgid "Avg Daily Sales"
+msgstr ""
+"સરેરાશ દૈનિક વેચાણ\n"
+
+#: classes/class-wc-asre-admin.php:940
+msgid "Average Daily Sales during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન સરેરાશ દૈનિક વેચાણ.\n"
+
+#: classes/class-wc-asre-admin.php:944
+msgid "Avg Items per order"
+msgstr ""
+"ઓર્ડર દીઠ સરેરાશ વસ્તુઓ\n"
+
+#: classes/class-wc-asre-admin.php:949
+msgid "Average Items per order during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન ઓર્ડર દીઠ સરેરાશ વસ્તુઓ.\n"
+
+#: classes/class-wc-asre-admin.php:964
+#: classes/rows/class-wc-asre-row-top-sellers.php:18
+#: classes/rows/class-wc-asre-row-top-sellers.php:123
+msgid "Top Selling Products"
+msgstr ""
+"ટોચના વેચાણ ઉત્પાદનો\n"
+
+#: classes/class-wc-asre-admin.php:970
+msgid "product name, quantity, amount during the report period."
+msgstr ""
+"અહેવાલ સમયગાળા દરમિયાન ઉત્પાદન નામ, જથ્થો, રકમ.\n"
+
+#: classes/class-wc-asre-admin.php:974
+#: classes/rows/class-wc-asre-row-top-category.php:96
+msgid "Top Selling Categories"
+msgstr ""
+"ટોચના વેચાણની શ્રેણીઓ\n"
+
+#: classes/class-wc-asre-admin.php:980
+msgid "category name, quantity, amount during the report period."
+msgstr ""
+"અહેવાલ અવધિ દરમિયાન વર્ગનું નામ, જથ્થો, રકમ.\n"
+
+#: classes/class-wc-asre-admin.php:984
+msgid "Sales By Billing City"
+msgstr ""
+"બિલિંગ સિટી દ્વારા વેચાણ\n"
+
+#: classes/class-wc-asre-admin.php:990 classes/class-wc-asre-admin.php:1000
+msgid "City, orders count, total amount during the report period."
+msgstr ""
+"અહેવાલના સમયગાળા દરમિયાન શહેર, ઓર્ડરની ગણતરી, કુલ રકમ.\n"
+
+#: classes/class-wc-asre-admin.php:994
+msgid "Sales By Shipping City"
+msgstr ""
+"શિપિંગ સિટી દ્વારા વેચાણ\n"
+
+#: classes/class-wc-asre-admin.php:1004
+msgid "Sales By Billing State"
+msgstr ""
+"બિલિંગ રાજ્ય દ્વારા વેચાણ\n"
+
+#: classes/class-wc-asre-admin.php:1010 classes/class-wc-asre-admin.php:1020
+msgid "State, orders count, total amount during the report period."
+msgstr ""
+"અહેવાલ સમયગાળા દરમિયાન રાજ્ય, ઓર્ડર ગણતરી, કુલ રકમ.\n"
+
+#: classes/class-wc-asre-admin.php:1014
+msgid "Sales By Shipping State"
+msgstr ""
+"શિપિંગ રાજ્ય દ્વારા વેચાણ\n"
+
+#: classes/class-wc-asre-admin.php:1024
+msgid "Sales By Billing Country"
+msgstr ""
+"બિલિંગ દેશ દ્વારા વેચાણ\n"
+
+#: classes/class-wc-asre-admin.php:1030 classes/class-wc-asre-admin.php:1040
+msgid "country, orders count, total amount during the report period."
+msgstr ""
+"દેશ, ઓર્ડરની ગણતરી, રિપોર્ટ સમયગાળા દરમિયાન કુલ રકમ.\n"
+
+#: classes/class-wc-asre-admin.php:1034
+msgid "Sales By Shipping Country"
+msgstr ""
+"શીપીંગ દેશ દ્વારા વેચાણ\n"
+
+#: classes/class-wc-asre-admin.php:1044
+#: classes/rows/class-wc-asre-row-top-coupons.php:92
+msgid "Sales By Coupons"
+msgstr ""
+"કુપન્સ દ્વારા વેચાણ\n"
+
+#: classes/class-wc-asre-admin.php:1050
+msgid ""
+"coupon, quantity used and total discount amount during the report period."
+msgstr ""
+"અહેવાલ સમયગાળા દરમિયાન કૂપન, વપરાયેલ પ્રમાણ અને કુલ ડિસ્કાઉન્ટની રકમ.\n"
+
+#: classes/class-wc-asre-admin.php:1054
+msgid "Orders By Status"
+msgstr ""
+"સ્થિતિ દ્વારા ઓર્ડર\n"
+
+#: classes/class-wc-asre-admin.php:1059
+msgid "orders Status, order count, total amount during the report period."
+msgstr ""
+"ઓર્ડર સ્થિતિ, ઓર્ડરની ગણતરી, રિપોર્ટ સમયગાળા દરમિયાન કુલ રકમ.\n"
+
+#: classes/class-wc-asre-admin.php:1063
+msgid "Orders By Payment Method"
+msgstr ""
+"ચુકવણી પદ્ધતિ દ્વારા ઓર્ડર\n"
+
+#: classes/class-wc-asre-admin.php:1068
+msgid "payment method, order count, total amount during the report period."
+msgstr ""
+"રિપોર્ટ અવધિ દરમિયાન ચુકવણીની પદ્ધતિ, ઓર્ડરની ગણતરી, કુલ રકમ.\n"
+
+#: classes/class-wc-asre-admin.php:1109
+msgid "Total number of active subscriptions during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન સક્રિય સબ્સ્ક્રિપ્શન્સની કુલ સંખ્યા.\n"
+
+#: classes/class-wc-asre-admin.php:1118
+msgid "Total number of subscriptions signups during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન સબ્સ્ક્રિપ્શન્સ સાઇનઅપ્સની કુલ સંખ્યા.\n"
+
+#: classes/class-wc-asre-admin.php:1122
+msgid "Signup Revenue"
+msgstr ""
+"સાઇનઅપ આવક\n"
+
+#: classes/class-wc-asre-admin.php:1127
+msgid "Total signup revenue during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન કુલ સાઇનઅપ આવક.\n"
+
+#: classes/class-wc-asre-admin.php:1136
+msgid "Total number of subscriptions renewal during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન સબ્સ્ક્રિપ્શન્સ નવીકરણની કુલ સંખ્યા.\n"
+
+#: classes/class-wc-asre-admin.php:1140
+msgid "Renewal Revenue"
+msgstr ""
+"નવીકરણ આવક\n"
+
+#: classes/class-wc-asre-admin.php:1145
+msgid "Total renewal revenue during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન નવીકરણની કુલ આવક.\n"
+
+#: classes/class-wc-asre-admin.php:1154
+msgid "Total number of subscriptions switch during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન સબ્સ્ક્રિપ્શન્સની કુલ સંખ્યા.\n"
+
+#: classes/class-wc-asre-admin.php:1158
+msgid "Switch Revenue"
+msgstr ""
+"આવક સ્વિચ કરો\n"
+
+#: classes/class-wc-asre-admin.php:1163
+msgid "Total switch revenue during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન કુલ સ્વિચ આવક.\n"
+
+#: classes/class-wc-asre-admin.php:1172
+msgid "Total number of subscriptions resubscribe during the report period."
+msgstr ""
+"રિપોર્ટ અવધિ દરમિયાન સબ્સ્ક્રિપ્શન્સની કુલ સંખ્યા ફરીથી સબ્સ્ક્રાઇબ કરે છે.\n"
+
+#: classes/class-wc-asre-admin.php:1176
+msgid "Resubscribe Revenue"
+msgstr ""
+"આવક ફરીથી સબસ્ક્રાઇબ કરો\n"
+
+#: classes/class-wc-asre-admin.php:1181
+msgid "Total resubscribe revenue during the report period."
+msgstr ""
+"રિપોર્ટ સમયગાળા દરમિયાન કુલ ફરીથી સબસ્ક્રાઇબ આવક.\n"
+
+#: classes/class-wc-asre-admin.php:1197
+msgid "Subscriptions By Status (Total)"
+msgstr ""
+"સ્થિતિ દ્વારા સબ્સ્ક્રિપ્શન્સ (કુલ)\n"
+
+#: classes/class-wc-asre-admin.php:1202 classes/class-wc-asre-admin.php:1211
+msgid "New, Cancelled, Pending Cancellations, etc."
+msgstr ""
+"નવું, રદ કરાયેલ, બાકી રદ કરવું, વગેરે.\n"
+
+#: classes/class-wc-asre-admin.php:1206
+msgid "Subscriptions By Status (Period)"
+msgstr ""
+"સ્થિતિ (સમયગાળા) દ્વારા સબ્સ્ક્રિપ્શન્સ\n"
+
+#: classes/preview/total-report.php:341
+msgid "Report dates"
+msgstr ""
+"રિપોર્ટ તારીખો\n"
+
+#: classes/preview/total-report.php:370 classes/views/asre_reports_tab.php:140
+msgid "Report Totals"
+msgstr ""
+"અહેવાલો ટોટલ્સ\n"
+
+#: classes/rows/class-wc-asre-row-top-category.php:102
+msgid "Total Amount"
+msgstr ""
+"કુલ રકમ\n"
+
+#: classes/rows/class-wc-asre-row-top-category.php:106
+#: classes/rows/class-wc-asre-row-top-coupons.php:102
+#: classes/rows/class-wc-asre-row-top-sellers.php:133
+msgid "data not available."
+msgstr ""
+"ડેટા ઉપલબ્ધ નથી.\n"
+
+#: classes/rows/class-wc-asre-row-top-coupons.php:98
+msgid "Amount Discounted"
+msgstr ""
+"ડિસ્કાઉન્ટેડ રકમ\n"
+
+#: classes/rows/class-wc-asre-row-top-sellers.php:128
+msgid "Quantity"
+msgstr ""
+"જથ્થો\n"
+
+#: classes/views/asre_reports_tab.php:22 classes/views/asre_reports_tab.php:202
+msgid "Next Run Date"
+msgstr ""
+"આગળ ચાલવાની તારીખ\n"
+
+#: classes/views/asre_reports_tab.php:35
+msgid "No Reports"
+msgstr ""
+"કોઈ અહેવાલો નથી\n"
+
+#: classes/views/asre_reports_tab.php:105
+#: classes/views/asre_reports_tab.php:111
+msgid "Add Report"
+msgstr ""
+"રિપોર્ટ ઉમેરો\n"
+
+#: classes/views/asre_reports_tab.php:121
+msgid " Create Report"
+msgstr ""
+"રિપોર્ટ બનાવો\n"
+
+#: classes/views/asre_reports_tab.php:123
+msgid " Edit Report"
+msgstr ""
+"અહેવાલ સંપાદિત કરો\n"
+
+#: classes/views/asre_reports_tab.php:164
+msgid "Report Details"
+msgstr ""
+"અહેવાલ વિગતો\n"
+
+#: classes/views/asre_reports_tab.php:178
+msgid "Subscription Details"
+msgstr ""
+"સબ્સ્ક્રિપ્શન વિગતો\n"
+
+#: classes/views/asre_reports_tab.php:213
+msgid "delete report"
+msgstr "અહેવાલ કાઢી નાખો"
+
+#: classes/views/asre_reports_tab.php:240
+msgid "Preview report"
+msgstr ""
+"પૂર્વાવલોકન અહેવાલ\n"
+
+#: classes/views/asre_reports_tab.php:241
+msgid "Send a test email   "
+msgstr ""
+"એક પરીક્ષણ ઇમેઇલ મોકલો\n"
+
+#. Description of the plugin
+msgid ""
+"The Sales Report Email Pro will help know how well your store is performing "
+"and how your products are selling by emailing you a daily, weekly, or "
+"monthly sales report email."
+msgstr ""
+"સેલ્સ રિપોર્ટ ઇમેઇલ પ્રો તમારા સ્ટોરનું સંચાલન કેટલું સારું કરી રહ્યું છે "
+"અને તમને દરરોજ, સાપ્તાહિક અથવા માસિક વેચાણ અહેવાલ ઇમેઇલ ઇમેઇલ કરીને તમારા "
+"ઉત્પાદનો કેવી રીતે વેચાય છે તે જાણવામાં મદદ કરશે.\n"

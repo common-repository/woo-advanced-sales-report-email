@@ -1,0 +1,466 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Advanced Sales Report Email\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-14 10:24+0000\n"
+"PO-Revision-Date: 2020-05-14 10:35+0000\n"
+"Last-Translator: \n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.4.1"
+
+#: woocommerce-advanced-sales-report-email.php:83
+#, php-format
+msgid ""
+"Please install and activate %sWooCommerce%s for WC Sales Report Email to "
+"work!"
+msgstr "אנא התקן והפעל את% sWooCommerce% s כדי שדוא\"ל הדוא\"ל המכירות יפעל!"
+
+#: classes/class-wc-asre-admin.php:200
+msgid "Documentation"
+msgstr "תיעוד"
+
+#: classes/class-wc-asre-admin.php:699
+msgid "the name of the report for internal use"
+msgstr ""
+"שם הדוח לשימוש פנימי\n"
+
+#: classes/class-wc-asre-admin.php:700
+msgid "Add title"
+msgstr ""
+"הוסף כותרת\n"
+
+#: classes/class-wc-asre-admin.php:715
+msgid "enter the recipients email addresses, separated by commas."
+msgstr ""
+"הזן את כתובות הדוא\"ל של הנמענים, מופרדים באמצעות פסיקים.\n"
+
+#: classes/class-wc-asre-admin.php:722
+msgid "Sales Report for {site_title}."
+msgstr ""
+"דו\"ח מכירות עבור {site_title}.\n"
+
+#: classes/class-wc-asre-admin.php:723 classes/class-wc-asre-admin.php:731
+msgid "available Placeholders: {site_title}"
+msgstr ""
+"מצייני מקום זמינים: {site_title}\n"
+
+#: classes/class-wc-asre-admin.php:727
+msgid "Email Content"
+msgstr ""
+"תוכן אימייל\n"
+
+#: classes/class-wc-asre-admin.php:730
+msgid "Hi there. Please find your sales report for {site_title} below."
+msgstr ""
+"שלום שם. אנא מצא את דוח המכירות שלך עבור {site_title} להלן.\n"
+
+#: classes/class-wc-asre-admin.php:780
+msgid "Interval"
+msgstr "טווח זמן לדו״ח"
+
+#: classes/class-wc-asre-admin.php:784
+msgid "The frequency of which the report should be sent."
+msgstr ""
+"התדירות בה יש לשלוח את הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:789
+msgid "Day of Week"
+msgstr ""
+"יום בשבוע\n"
+
+#: classes/class-wc-asre-admin.php:795
+msgid "Day of the week to send the report email."
+msgstr ""
+"יום השבוע לשליחת דוא\"ל הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:799
+msgid "Day of Month"
+msgstr ""
+"יום בחודש\n"
+
+#: classes/class-wc-asre-admin.php:804
+msgid "the day on the month to send the report email."
+msgstr ""
+"היום בחודש לשליחת דוא\"ל הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:808
+msgid "Send Report At"
+msgstr ""
+"שלח דוח בשעה\n"
+
+#: classes/class-wc-asre-admin.php:813
+msgid "the time of day to send out the report email."
+msgstr ""
+"השעה ביום להעברת דוא\"ל הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:828
+msgid "Enable this option to enable this email notification."
+msgstr ""
+"הפעל אפשרות זו כדי להפעיל את הודעת הדוא\"ל הזו.\n"
+
+#: classes/class-wc-asre-admin.php:845 classes/preview/total-report.php:375
+msgid "Gross Revenue"
+msgstr ""
+"הכנסות ברוטו\n"
+
+#: classes/class-wc-asre-admin.php:850
+msgid "sum of all orders including shipping & taxes with refunds taken off."
+msgstr ""
+"סכום כל ההזמנות כולל משלוח ומיסים עם החזרים כספיים.\n"
+
+#: classes/class-wc-asre-admin.php:859
+msgid "Total discounts with coupons."
+msgstr ""
+"סה\"כ הנחות עם קופונים.\n"
+
+#: classes/class-wc-asre-admin.php:868
+msgid "Total Refunds during the report period."
+msgstr ""
+"סך ההחזרים בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:877
+msgid "Total tax charges during the report period."
+msgstr ""
+"סך חיובי המס בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:886
+msgid "Total shipping charges during the report period."
+msgstr ""
+"סך דמי המשלוח בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:890 classes/preview/total-report.php:463
+msgid "Net Revenue"
+msgstr "הכנסות נטו"
+
+#: classes/class-wc-asre-admin.php:895
+msgid "sum of all orders, with refunds, shipping & taxes taken off."
+msgstr ""
+"סכום כל ההזמנות, עם החזרים כספיים, משלוח ומיסים שהורדו.\n"
+
+#: classes/class-wc-asre-admin.php:904
+msgid "Total count of orders in status Processing/Complete."
+msgstr ""
+"סך כל ההזמנות בסטטוס עיבוד / הושלם.\n"
+
+#: classes/class-wc-asre-admin.php:908 classes/preview/total-report.php:510
+msgid "Items Sold"
+msgstr "פריטים שנמכרו"
+
+#: classes/class-wc-asre-admin.php:913
+msgid "Total items sold during the report period."
+msgstr ""
+"סך כל הפריטים שנמכרו במהלך תקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:917 classes/preview/total-report.php:527
+msgid "New Customers"
+msgstr ""
+"לקוחות חדשים\n"
+
+#: classes/class-wc-asre-admin.php:922
+msgid "Total number of new signups during the report period."
+msgstr ""
+"המספר הכולל של הרשמות חדשות במהלך תקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:926
+msgid "Avg Order Value"
+msgstr ""
+"ערך ממוצע להזמנה\n"
+
+#: classes/class-wc-asre-admin.php:931
+msgid "Average Order Value during the report period."
+msgstr ""
+"ערך הזמנה ממוצע בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:935
+msgid "Avg Daily Sales"
+msgstr ""
+"מכירות ממוצעות יומיות\n"
+
+#: classes/class-wc-asre-admin.php:940
+msgid "Average Daily Sales during the report period."
+msgstr ""
+"מכירות יומיות ממוצעות בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:944
+msgid "Avg Items per order"
+msgstr ""
+"פריטים ממוצעים לפי הזמנה\n"
+
+#: classes/class-wc-asre-admin.php:949
+msgid "Average Items per order during the report period."
+msgstr ""
+"פריטים ממוצעים להזמנה בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:964
+#: classes/rows/class-wc-asre-row-top-sellers.php:18
+#: classes/rows/class-wc-asre-row-top-sellers.php:123
+msgid "Top Selling Products"
+msgstr ""
+"מוצרים הנמכרים ביותר\n"
+
+#: classes/class-wc-asre-admin.php:970
+msgid "product name, quantity, amount during the report period."
+msgstr ""
+"שם מוצר, כמות, סכום בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:974
+#: classes/rows/class-wc-asre-row-top-category.php:96
+msgid "Top Selling Categories"
+msgstr ""
+"הקטגוריות הנמכרות ביותר\n"
+
+#: classes/class-wc-asre-admin.php:980
+msgid "category name, quantity, amount during the report period."
+msgstr ""
+"שם קטגוריה, כמות, סכום בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:984
+msgid "Sales By Billing City"
+msgstr ""
+"מכירות מאת חברת חיוב סיטי\n"
+
+#: classes/class-wc-asre-admin.php:990 classes/class-wc-asre-admin.php:1000
+msgid "City, orders count, total amount during the report period."
+msgstr ""
+"עיר, ספירת הזמנות, הסכום הכולל בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:994
+msgid "Sales By Shipping City"
+msgstr ""
+"מכירות על ידי משלוח עיר\n"
+
+#: classes/class-wc-asre-admin.php:1004
+msgid "Sales By Billing State"
+msgstr ""
+"מכירות לפי מדינה חיוב\n"
+
+#: classes/class-wc-asre-admin.php:1010 classes/class-wc-asre-admin.php:1020
+msgid "State, orders count, total amount during the report period."
+msgstr ""
+"מדינה, ספירת הזמנות, הסכום הכולל בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1014
+msgid "Sales By Shipping State"
+msgstr ""
+"מכירות לפי מדינת משלוח\n"
+
+#: classes/class-wc-asre-admin.php:1024
+msgid "Sales By Billing Country"
+msgstr ""
+"מכירות לפי מדינה חיוב\n"
+
+#: classes/class-wc-asre-admin.php:1030 classes/class-wc-asre-admin.php:1040
+msgid "country, orders count, total amount during the report period."
+msgstr ""
+"מדינה, ספירת הזמנות, הסכום הכולל בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1034
+msgid "Sales By Shipping Country"
+msgstr ""
+"מכירות לפי מדינה משלוח\n"
+
+#: classes/class-wc-asre-admin.php:1044
+#: classes/rows/class-wc-asre-row-top-coupons.php:92
+msgid "Sales By Coupons"
+msgstr ""
+"מכירות עם קופונים\n"
+
+#: classes/class-wc-asre-admin.php:1050
+msgid ""
+"coupon, quantity used and total discount amount during the report period."
+msgstr ""
+"קופון, כמות ששימשה וסכום ההנחה הכולל בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1054
+msgid "Orders By Status"
+msgstr ""
+"הזמנות לפי סטטוס\n"
+
+#: classes/class-wc-asre-admin.php:1059
+msgid "orders Status, order count, total amount during the report period."
+msgstr ""
+"הזמנות סטטוס, ספירת הזמנות, הסכום הכולל במהלך תקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1063
+msgid "Orders By Payment Method"
+msgstr ""
+"הזמנות בשיטת תשלום\n"
+
+#: classes/class-wc-asre-admin.php:1068
+msgid "payment method, order count, total amount during the report period."
+msgstr ""
+"אמצעי תשלום, ספירת הזמנות, הסכום הכולל במהלך תקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1109
+msgid "Total number of active subscriptions during the report period."
+msgstr ""
+"המספר הכולל של מנויים פעילים בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1118
+msgid "Total number of subscriptions signups during the report period."
+msgstr ""
+"המספר הכולל של הרשמות למנויים במהלך תקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1122
+msgid "Signup Revenue"
+msgstr ""
+"הכנסות הרשמה\n"
+
+#: classes/class-wc-asre-admin.php:1127
+msgid "Total signup revenue during the report period."
+msgstr ""
+"סך הכנסות ההרשמה בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1136
+msgid "Total number of subscriptions renewal during the report period."
+msgstr ""
+"המספר הכולל של חידוש המנויים במהלך תקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1140
+msgid "Renewal Revenue"
+msgstr ""
+"הכנסות התחדשות\n"
+
+#: classes/class-wc-asre-admin.php:1145
+msgid "Total renewal revenue during the report period."
+msgstr ""
+"סך הכנסות ההתחדשות בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1154
+msgid "Total number of subscriptions switch during the report period."
+msgstr ""
+"מספר המנויים הכולל עובר במהלך תקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1158
+msgid "Switch Revenue"
+msgstr ""
+"החלף הכנסות\n"
+
+#: classes/class-wc-asre-admin.php:1163
+msgid "Total switch revenue during the report period."
+msgstr ""
+"סך הכנסות המתגים במהלך תקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1172
+msgid "Total number of subscriptions resubscribe during the report period."
+msgstr ""
+"המספר הכולל של ההרשמות להירשם מחדש במהלך תקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1176
+msgid "Resubscribe Revenue"
+msgstr ""
+"רישום מחדש של הכנסות\n"
+
+#: classes/class-wc-asre-admin.php:1181
+msgid "Total resubscribe revenue during the report period."
+msgstr ""
+"סך הכנסות המנוי מחדש בתקופת הדוח.\n"
+
+#: classes/class-wc-asre-admin.php:1197
+msgid "Subscriptions By Status (Total)"
+msgstr ""
+"מנויים לפי סטטוס (סה\"כ)\n"
+
+#: classes/class-wc-asre-admin.php:1202 classes/class-wc-asre-admin.php:1211
+msgid "New, Cancelled, Pending Cancellations, etc."
+msgstr ""
+"ביטולים חדשים, מבוטלים, בהמתנה וכו '.\n"
+
+#: classes/class-wc-asre-admin.php:1206
+msgid "Subscriptions By Status (Period)"
+msgstr ""
+"מנויים לפי סטטוס (תקופה)\n"
+
+#: classes/preview/total-report.php:341
+msgid "Report dates"
+msgstr "תאריכים"
+
+#: classes/preview/total-report.php:370 classes/views/asre_reports_tab.php:140
+msgid "Report Totals"
+msgstr ""
+"דווח על סך הכל\n"
+
+#: classes/rows/class-wc-asre-row-top-category.php:102
+msgid "Total Amount"
+msgstr "הסכום הכולל"
+
+#: classes/rows/class-wc-asre-row-top-category.php:106
+#: classes/rows/class-wc-asre-row-top-coupons.php:102
+#: classes/rows/class-wc-asre-row-top-sellers.php:133
+msgid "data not available."
+msgstr ""
+"נתונים לא זמינים.\n"
+
+#: classes/rows/class-wc-asre-row-top-coupons.php:98
+msgid "Amount Discounted"
+msgstr "סכום מוזל"
+
+#: classes/rows/class-wc-asre-row-top-sellers.php:128
+msgid "Quantity"
+msgstr "כמות"
+
+#: classes/views/asre_reports_tab.php:22 classes/views/asre_reports_tab.php:202
+msgid "Next Run Date"
+msgstr ""
+"תאריך ההפעלה הבא\n"
+
+#: classes/views/asre_reports_tab.php:35
+msgid "No Reports"
+msgstr ""
+"לא הוגדרו דו\"חות\n"
+
+#: classes/views/asre_reports_tab.php:105
+#: classes/views/asre_reports_tab.php:111
+msgid "Add Report"
+msgstr ""
+"הוסף דו\"ח\n"
+
+#: classes/views/asre_reports_tab.php:121
+msgid " Create Report"
+msgstr ""
+"צור דו\"ח\n"
+
+#: classes/views/asre_reports_tab.php:123
+msgid " Edit Report"
+msgstr ""
+"ערוך דו\"ח\n"
+
+#: classes/views/asre_reports_tab.php:164
+msgid "Report Details"
+msgstr ""
+"פרטי דו\"ח\n"
+
+#: classes/views/asre_reports_tab.php:178
+msgid "Subscription Details"
+msgstr ""
+"פרטי מנוי\n"
+
+#: classes/views/asre_reports_tab.php:213
+msgid "delete report"
+msgstr ""
+"מחק דו\"ח\n"
+
+#: classes/views/asre_reports_tab.php:240
+msgid "Preview report"
+msgstr ""
+"תצוגה מקדימה של הדו\"ח\n"
+
+#: classes/views/asre_reports_tab.php:241
+msgid "Send a test email   "
+msgstr ""
+"שלח דוא\"ל לבדיקה\n"
+
+#. Description of the plugin
+msgid ""
+"The Sales Report Email Pro will help know how well your store is performing "
+"and how your products are selling by emailing you a daily, weekly, or "
+"monthly sales report email."
+msgstr ""
+"דוא\"ל המכירות של דוח המכירות יעזור לדעת את הביצועים של החנות שלך ואיך "
+"המוצרים שלך נמכרים באמצעות דוא\"ל דוא\"ל מכירות יומי, שבועי או חודשי.\n"

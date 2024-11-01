@@ -1,0 +1,480 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Advanced Sales Report Email\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-14 10:24+0000\n"
+"PO-Revision-Date: 2020-05-14 10:31+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.4.1"
+
+#: woocommerce-advanced-sales-report-email.php:83
+#, php-format
+msgid ""
+"Please install and activate %sWooCommerce%s for WC Sales Report Email to "
+"work!"
+msgstr ""
+"Instale y active %sWooCommerce%s para que el correo electrónico de informe "
+"de ventas de WC funcione.\n"
+
+#: classes/class-wc-asre-admin.php:200
+msgid "Documentation"
+msgstr "Documentación"
+
+#: classes/class-wc-asre-admin.php:699
+msgid "the name of the report for internal use"
+msgstr ""
+"el nombre del informe para uso interno\n"
+
+#: classes/class-wc-asre-admin.php:700
+msgid "Add title"
+msgstr ""
+"Añadir título\n"
+
+#: classes/class-wc-asre-admin.php:715
+msgid "enter the recipients email addresses, separated by commas."
+msgstr ""
+"ingrese las direcciones de correo electrónico de los destinatarios, "
+"separadas por comas.\n"
+
+#: classes/class-wc-asre-admin.php:722
+msgid "Sales Report for {site_title}."
+msgstr ""
+"Informe de ventas para {site_title}.\n"
+
+#: classes/class-wc-asre-admin.php:723 classes/class-wc-asre-admin.php:731
+msgid "available Placeholders: {site_title}"
+msgstr ""
+"Marcadores de posición disponibles: {site_title}\n"
+
+#: classes/class-wc-asre-admin.php:727
+msgid "Email Content"
+msgstr ""
+"Contenido de correo electrónico\n"
+
+#: classes/class-wc-asre-admin.php:730
+msgid "Hi there. Please find your sales report for {site_title} below."
+msgstr ""
+"Hola. Encuentre su informe de ventas para {site_title} a continuación.\n"
+
+#: classes/class-wc-asre-admin.php:780
+msgid "Interval"
+msgstr "Intervalo"
+
+#: classes/class-wc-asre-admin.php:784
+msgid "The frequency of which the report should be sent."
+msgstr ""
+"La frecuencia con la que se debe enviar el informe.\n"
+
+#: classes/class-wc-asre-admin.php:789
+msgid "Day of Week"
+msgstr ""
+"Día de la semana\n"
+
+#: classes/class-wc-asre-admin.php:795
+msgid "Day of the week to send the report email."
+msgstr ""
+"Día de la semana para enviar el informe por correo electrónico.\n"
+
+#: classes/class-wc-asre-admin.php:799
+msgid "Day of Month"
+msgstr ""
+"Dia del mes\n"
+
+#: classes/class-wc-asre-admin.php:804
+msgid "the day on the month to send the report email."
+msgstr ""
+"el día del mes para enviar el informe por correo electrónico.\n"
+
+#: classes/class-wc-asre-admin.php:808
+msgid "Send Report At"
+msgstr ""
+"Enviar informe a\n"
+
+#: classes/class-wc-asre-admin.php:813
+msgid "the time of day to send out the report email."
+msgstr ""
+"la hora del día para enviar el informe por correo electrónico.\n"
+
+#: classes/class-wc-asre-admin.php:828
+msgid "Enable this option to enable this email notification."
+msgstr ""
+"Habilite esta opción para habilitar esta notificación por correo electrónico."
+"\n"
+
+#: classes/class-wc-asre-admin.php:845 classes/preview/total-report.php:375
+msgid "Gross Revenue"
+msgstr ""
+"Ingresos brutos\n"
+
+#: classes/class-wc-asre-admin.php:850
+msgid "sum of all orders including shipping & taxes with refunds taken off."
+msgstr ""
+"suma de todos los pedidos, incluidos los gastos de envío e impuestos con los "
+"reembolsos retirados.\n"
+
+#: classes/class-wc-asre-admin.php:859
+msgid "Total discounts with coupons."
+msgstr ""
+"Descuentos totales con cupones.\n"
+
+#: classes/class-wc-asre-admin.php:868
+msgid "Total Refunds during the report period."
+msgstr ""
+"Reembolsos totales durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:877
+msgid "Total tax charges during the report period."
+msgstr ""
+"Cargos totales de impuestos durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:886
+msgid "Total shipping charges during the report period."
+msgstr ""
+"Gastos de envío totales durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:890 classes/preview/total-report.php:463
+msgid "Net Revenue"
+msgstr ""
+"Ingresos netos\n"
+
+#: classes/class-wc-asre-admin.php:895
+msgid "sum of all orders, with refunds, shipping & taxes taken off."
+msgstr ""
+"suma de todos los pedidos, con reembolsos, envío e impuestos descontados.\n"
+
+#: classes/class-wc-asre-admin.php:904
+msgid "Total count of orders in status Processing/Complete."
+msgstr ""
+"Recuento total de pedidos en estado Procesando / Completo.\n"
+
+#: classes/class-wc-asre-admin.php:908 classes/preview/total-report.php:510
+msgid "Items Sold"
+msgstr ""
+"Cosas vendidas\n"
+
+#: classes/class-wc-asre-admin.php:913
+msgid "Total items sold during the report period."
+msgstr ""
+"Total de artículos vendidos durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:917 classes/preview/total-report.php:527
+msgid "New Customers"
+msgstr "nuevos clientes"
+
+#: classes/class-wc-asre-admin.php:922
+msgid "Total number of new signups during the report period."
+msgstr ""
+"Número total de nuevas suscripciones durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:926
+msgid "Avg Order Value"
+msgstr ""
+"Valor medio de pedido\n"
+
+#: classes/class-wc-asre-admin.php:931
+msgid "Average Order Value during the report period."
+msgstr ""
+"Valor de pedido promedio durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:935
+msgid "Avg Daily Sales"
+msgstr ""
+"Promedio de ventas diarias\n"
+
+#: classes/class-wc-asre-admin.php:940
+msgid "Average Daily Sales during the report period."
+msgstr ""
+"Promedio de ventas diarias durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:944
+msgid "Avg Items per order"
+msgstr ""
+"Promedio de artículos por pedido\n"
+
+#: classes/class-wc-asre-admin.php:949
+msgid "Average Items per order during the report period."
+msgstr ""
+"Promedio de artículos por pedido durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:964
+#: classes/rows/class-wc-asre-row-top-sellers.php:18
+#: classes/rows/class-wc-asre-row-top-sellers.php:123
+msgid "Top Selling Products"
+msgstr ""
+"Los productos más vendidos\n"
+
+#: classes/class-wc-asre-admin.php:970
+msgid "product name, quantity, amount during the report period."
+msgstr ""
+"nombre del producto, cantidad, cantidad durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:974
+#: classes/rows/class-wc-asre-row-top-category.php:96
+msgid "Top Selling Categories"
+msgstr ""
+"Categorías de mayor venta\n"
+
+#: classes/class-wc-asre-admin.php:980
+msgid "category name, quantity, amount during the report period."
+msgstr ""
+"nombre de categoría, cantidad, cantidad durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:984
+msgid "Sales By Billing City"
+msgstr ""
+"Ventas por ciudad de facturación\n"
+
+#: classes/class-wc-asre-admin.php:990 classes/class-wc-asre-admin.php:1000
+msgid "City, orders count, total amount during the report period."
+msgstr ""
+"Ciudad, recuento de pedidos, monto total durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:994
+msgid "Sales By Shipping City"
+msgstr ""
+"Ventas por ciudad de envío\n"
+
+#: classes/class-wc-asre-admin.php:1004
+msgid "Sales By Billing State"
+msgstr ""
+"Ventas por estado de facturación\n"
+
+#: classes/class-wc-asre-admin.php:1010 classes/class-wc-asre-admin.php:1020
+msgid "State, orders count, total amount during the report period."
+msgstr ""
+"Estado, recuento de pedidos, monto total durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:1014
+msgid "Sales By Shipping State"
+msgstr ""
+"Ventas por estado de envío\n"
+
+#: classes/class-wc-asre-admin.php:1024
+msgid "Sales By Billing Country"
+msgstr ""
+"Ventas por país de facturación\n"
+
+#: classes/class-wc-asre-admin.php:1030 classes/class-wc-asre-admin.php:1040
+msgid "country, orders count, total amount during the report period."
+msgstr ""
+"país, recuento de pedidos, monto total durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:1034
+msgid "Sales By Shipping Country"
+msgstr ""
+"Ventas por país de envío\n"
+
+#: classes/class-wc-asre-admin.php:1044
+#: classes/rows/class-wc-asre-row-top-coupons.php:92
+msgid "Sales By Coupons"
+msgstr ""
+"Ventas por cupones\n"
+
+#: classes/class-wc-asre-admin.php:1050
+msgid ""
+"coupon, quantity used and total discount amount during the report period."
+msgstr ""
+"cupón, cantidad utilizada y cantidad total de descuento durante el período "
+"del informe.\n"
+
+#: classes/class-wc-asre-admin.php:1054
+msgid "Orders By Status"
+msgstr ""
+"Pedidos por estado\n"
+
+#: classes/class-wc-asre-admin.php:1059
+msgid "orders Status, order count, total amount during the report period."
+msgstr ""
+"estado de pedidos, recuento de pedidos, importe total durante el período del "
+"informe.\n"
+
+#: classes/class-wc-asre-admin.php:1063
+msgid "Orders By Payment Method"
+msgstr ""
+"Pedidos por método de pago\n"
+
+#: classes/class-wc-asre-admin.php:1068
+msgid "payment method, order count, total amount during the report period."
+msgstr ""
+"método de pago, recuento de pedidos, monto total durante el período del "
+"informe.\n"
+
+#: classes/class-wc-asre-admin.php:1109
+msgid "Total number of active subscriptions during the report period."
+msgstr ""
+"Número total de suscripciones activas durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:1118
+msgid "Total number of subscriptions signups during the report period."
+msgstr ""
+"Número total de suscripciones registradas durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:1122
+msgid "Signup Revenue"
+msgstr ""
+"Ingresos de registro\n"
+
+#: classes/class-wc-asre-admin.php:1127
+msgid "Total signup revenue during the report period."
+msgstr ""
+"Ingresos totales de registro durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:1136
+msgid "Total number of subscriptions renewal during the report period."
+msgstr ""
+"Número total de renovación de suscripciones durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:1140
+msgid "Renewal Revenue"
+msgstr ""
+"Renovación de Ingresos\n"
+
+#: classes/class-wc-asre-admin.php:1145
+msgid "Total renewal revenue during the report period."
+msgstr ""
+"Ingresos totales por renovación durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:1154
+msgid "Total number of subscriptions switch during the report period."
+msgstr ""
+"El número total de suscripciones cambia durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:1158
+msgid "Switch Revenue"
+msgstr ""
+"Cambiar ingresos\n"
+
+#: classes/class-wc-asre-admin.php:1163
+msgid "Total switch revenue during the report period."
+msgstr ""
+"Ingresos totales por cambio durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:1172
+msgid "Total number of subscriptions resubscribe during the report period."
+msgstr ""
+"Número total de suscripciones de suscripción durante el período del informe."
+"\n"
+
+#: classes/class-wc-asre-admin.php:1176
+msgid "Resubscribe Revenue"
+msgstr ""
+"Volver a suscribir ingresos\n"
+
+#: classes/class-wc-asre-admin.php:1181
+msgid "Total resubscribe revenue during the report period."
+msgstr ""
+"Ingresos totales de la suscripción durante el período del informe.\n"
+
+#: classes/class-wc-asre-admin.php:1197
+msgid "Subscriptions By Status (Total)"
+msgstr ""
+"Suscripciones por estado (total)\n"
+
+#: classes/class-wc-asre-admin.php:1202 classes/class-wc-asre-admin.php:1211
+msgid "New, Cancelled, Pending Cancellations, etc."
+msgstr ""
+"Cancelaciones nuevas, canceladas, pendientes, etc.\n"
+
+#: classes/class-wc-asre-admin.php:1206
+msgid "Subscriptions By Status (Period)"
+msgstr ""
+"Suscripciones por estado (período)\n"
+
+#: classes/preview/total-report.php:341
+msgid "Report dates"
+msgstr ""
+"Informar fechas\n"
+
+#: classes/preview/total-report.php:370 classes/views/asre_reports_tab.php:140
+msgid "Report Totals"
+msgstr ""
+"Informar totales\n"
+
+#: classes/rows/class-wc-asre-row-top-category.php:102
+msgid "Total Amount"
+msgstr ""
+"Los productos más vendidos\n"
+
+#: classes/rows/class-wc-asre-row-top-category.php:106
+#: classes/rows/class-wc-asre-row-top-coupons.php:102
+#: classes/rows/class-wc-asre-row-top-sellers.php:133
+msgid "data not available."
+msgstr ""
+"informacion no disponible.\n"
+
+#: classes/rows/class-wc-asre-row-top-coupons.php:98
+msgid "Amount Discounted"
+msgstr ""
+"Cantidad descontada\n"
+
+#: classes/rows/class-wc-asre-row-top-sellers.php:128
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: classes/views/asre_reports_tab.php:22 classes/views/asre_reports_tab.php:202
+msgid "Next Run Date"
+msgstr ""
+"Fecha de la próxima ejecución\n"
+
+#: classes/views/asre_reports_tab.php:35
+msgid "No Reports"
+msgstr ""
+"Sin informes\n"
+
+#: classes/views/asre_reports_tab.php:105
+#: classes/views/asre_reports_tab.php:111
+msgid "Add Report"
+msgstr ""
+"Agregar informe\n"
+
+#: classes/views/asre_reports_tab.php:121
+msgid " Create Report"
+msgstr ""
+"Crear informe\n"
+
+#: classes/views/asre_reports_tab.php:123
+msgid " Edit Report"
+msgstr ""
+"Editar informe\n"
+
+#: classes/views/asre_reports_tab.php:164
+msgid "Report Details"
+msgstr ""
+"Detalles del informe\n"
+
+#: classes/views/asre_reports_tab.php:178
+msgid "Subscription Details"
+msgstr ""
+"Detalles de suscripción\n"
+
+#: classes/views/asre_reports_tab.php:213
+msgid "delete report"
+msgstr ""
+"eliminar informe\n"
+
+#: classes/views/asre_reports_tab.php:240
+msgid "Preview report"
+msgstr ""
+"Vista previa del informe\n"
+
+#: classes/views/asre_reports_tab.php:241
+msgid "Send a test email   "
+msgstr ""
+"Enviar un correo electrónico de prueba\n"
+
+#. Description of the plugin
+msgid ""
+"The Sales Report Email Pro will help know how well your store is performing "
+"and how your products are selling by emailing you a daily, weekly, or "
+"monthly sales report email."
+msgstr ""
+"Sales Report Email Pro lo ayudará a saber qué tan bien está funcionando su "
+"tienda y cómo se venden sus productos enviándole un correo electrónico "
+"diario, semanal o mensual.\n"
